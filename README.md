@@ -8,4 +8,4 @@ Install libraries with `pip install -r req.txt` and run the code with `python3 m
 Demo app here: https://prntsc.lareithen.repl.co/
 
 ## Note
-I am not responsible for the images displayed.
+i'm not responsible for the images displayed.
