@@ -2,7 +2,6 @@ from bs4 import BeautifulSoup
 import cloudscraper, random, string
 
 def gorsel():
-    global rl
     rastgele = ''.join(random.choices(string.ascii_lowercase + string.digits, k = 6))
     scraper = cloudscraper.create_scraper()
     html = scraper.get(f'http://prnt.sc/{rastgele}').text
